@@ -265,6 +265,7 @@ DNS 回退（failover）默认是串行的，即默认仅在选中的 DNS 服务
   "expectedIPs": ["geoip:cn"],
   "unexpectedIPs": ["geoip:cloudflare"],
   "skipFallback": false,
+  "timeoutMs": 4000,
   "finalQuery": false,
   "tag": "dns-tag",
   "clientIP": "1.2.3.4",
